@@ -208,6 +208,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# sshfs
+PRODUCT_PACKAGES += \
+    sshfs
+
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
