@@ -192,7 +192,8 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat \
     ntfsfix \
-    ntfs-3g
+    ntfs-3g \
+    sshfs
 
 # Openssh
 PRODUCT_PACKAGES += \
